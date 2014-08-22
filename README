@@ -69,7 +69,7 @@ createiso.sh - installation script to modify RHEL 6.4+ ISO image
 
 			DOD Firefox Plugin and DOD Root CA Certificates for NIPR (SPIR
 			CAs would need to be added and repackaged via taring up the
-			.mozzilla directory - placed in /etc/skel for all users.
+			.mozilla directory - placed in /etc/skel for all users.
 
 		stig-fix-1.7.8-el6.noarch.rpm
 
@@ -85,8 +85,16 @@ createiso.sh - installation script to modify RHEL 6.4+ ISO image
 
 			WILL BE REMOVED WITH RHEL 6.6 (SSG will be part of baseline)
 			
-			Currently I use ths SSG Scripts to take a benchmark to save in
+			Currently I use these SSG Scripts to take a benchmark to save in
 			root after installation.
+
+
+BEFORE STARTING
+===============
+
+Required packages:
+      genisoimage
+      isomd5sum
 
 
 EXAMPLE
